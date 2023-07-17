@@ -1,3 +1,48 @@
-<!DOCTYPE html>
 
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Dashboard</title><link rel="shortcut icon" href="/dashboard/assets/branding/favicon.ico"><link rel="stylesheet" href="/dashboard/assets/branding/branding.css"><link rel="manifest" crossorigin="use-credentials" href="/dashboard/assets/branding/manifest.json"/><script defer="defer" src="./vendor.487b376a56cfe92b257e.js"></script><script defer="defer" src="./client.487b376a56cfe92b257e.js"></script><script defer="defer" src="./service-worker.js"></script><script defer="defer" src="./monaco.487b376a56cfe92b257e.js"></script><script defer="defer" src="./editor.worker.js"></script><link href="./vendor.487b376a56cfe92b257e.css" rel="stylesheet"><link href="./client.487b376a56cfe92b257e.css" rel="stylesheet"><link href="./monaco.487b376a56cfe92b257e.css" rel="stylesheet"></head><body><div class="ui-container" style="height: 100%;"><div class="main-page-loader"><div class="ide-page-loader-content"><img src="./assets/branding/loader.svg" alt="Loading..."/></div></div></div></body></html>
+<!doctype html><html dir="ltr" lang="en"><head><meta charset="utf-8"><title>Settings</title><script src="/base-error-reporting.js"></script><script src="/settings-error-reporting.js"></script><script src="/strings.m.js" type="module"></script><script src="/cookie_info.js"></script><style>/* Copyright (C) Microsoft Corporation. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file. */
+
+body {
+  font-family: "system-ui", sans-serif;
+  font-size: 14px;
+  background-color: rgb(247, 247, 247);
+  margin: 0;
+}
+
+@media (forced-colors: active) {
+  ::placeholder {
+    color: ButtonText !important;
+  }
+}
+
+@media (forced-colors:none) {
+  input::selection {
+    color: #FFF;
+    background: #0078D4;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(51, 51, 51);
+  }
+}
+@media (forced-colors:none) and (prefers-color-scheme: dark) {
+  input::selection {
+    color: #000;
+    /* RGBA because Blink applies an opacity otherwise */
+    background: rgba(147, 184, 231, 0.996);
+    opacity: 1;
+  }
+}</style><style>body {
+      background: transparent !important;
+    }
+
+    #modal-root {
+      position: fixed;
+    }
+
+    #dialog-root {
+      position: fixed;
+    }</style></head><body style="margin: 0"><div id="app-root"></div><div id="modal-root"></div><div id="dialog-root" aria-live="assertive"></div><script type="module" src="/lib_fast_deprecated.chunk.js"></script><script type="module" src="/lib_react.chunk.js"></script><script type="module" src="/lib_fast_web_components.chunk.js"></script><script type="module" src="/settings.bundle.js"></script></body></html>
